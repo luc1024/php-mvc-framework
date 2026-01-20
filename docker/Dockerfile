@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM php:8.5.2-apache
 
 # Copy virtual host into container
 COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
